@@ -74,7 +74,7 @@ export default function Login() {
         </p>
 
         <div className="mt-6 p-3 rounded-lg bg-blue-50 text-xs text-blue-800">
-          <strong>Admin demo:</strong> admin@shophub.com / admin123
+          
         </div>
       </div>
     </div>
