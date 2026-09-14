@@ -1,0 +1,19 @@
+name = "ecommerce-app"
+main = "worker/index.js"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Serve the built React app from /dist
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+
+# D1 Database — replace database_id after `wrangler d1 create ecommerce-db`
+[[d1_databases]]
+binding = "DB"
+database_name = "ecommerce-db"
+database_id = "REPLACE_ME"
+
+[vars]
+JWT_SECRET = "change-this-to-super-secret-key"
