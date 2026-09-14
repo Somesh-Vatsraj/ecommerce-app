@@ -85,4 +85,4 @@ INSERT INTO products (name, description, price, image_url, category, stock) VALU
 -- (see README setup step 3)
 -- ============================================
 INSERT INTO users (email, name, password_hash, role) VALUES
-('admin@shophub.com', 'Admin', 'REPLACE_WITH_HASH_BELOW', 'admin');
+('admin@shophub.com', 'Admin', 'a60e17b247196304295355cbf95069383d3f1cc9ceb7ed3e48282d8b2f59c2f8', 'admin');
