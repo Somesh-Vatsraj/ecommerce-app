@@ -13,7 +13,7 @@ not_found_handling = "single-page-application"
 [[d1_databases]]
 binding = "DB"
 database_name = "ecommerce-db"
-database_id = "REPLACE_ME"
+database_id = "678bdd8b-bd57-4197-a11a-7cd4443517d4"
 
 [vars]
 JWT_SECRET = "change-this-to-super-secret-key"
