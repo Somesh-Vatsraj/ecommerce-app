@@ -1,3 +1,4 @@
+<img width="1363" height="896" alt="Screenshot 2026-09-17 131742" src="https://github.com/user-attachments/assets/8322e0de-b749-4e97-ada7-30eb09cb536f" />
 # 1. Install dependencies
 npm install
 
